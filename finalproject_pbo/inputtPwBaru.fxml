@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="268.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject_pbo.InputtPwBaruController">
+   <children>
+      <ImageView fx:id="bg_lupa_pw" fitHeight="270.0" fitWidth="291.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/bg_lupa_pw.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="status_bar" fitHeight="55.0" fitWidth="268.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/status_bar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="input_pw_baru" fitHeight="296.0" fitWidth="267.0" layoutX="1.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/input_pw_baru.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLanjutkan" layoutX="92.0" layoutY="558.0" mnemonicParsing="false" onAction="#keMenelusuriHotel" prefHeight="34.0" prefWidth="87.0" style="-fx-background-color: tr;" />
+      <PasswordField fx:id="tfPwBaru" layoutX="18.0" layoutY="501.0" prefHeight="26.0" prefWidth="231.0" promptText="**********" />
+      <TextField fx:id="tfEmail" layoutX="18.0" layoutY="426.0" prefHeight="27.0" prefWidth="231.0" promptText="email@gmail.com" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="268.0" style="-fx-background-color: #999999;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="finalproject_pbo.DaftarAppleController">
+   <children>
+      <ImageView fx:id="masuk_apple" fitHeight="358.0" fitWidth="306.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/masuk_apple.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg_masukk_apple" fitHeight="236.0" fitWidth="269.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/bg_masukk_apple.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg_masukk_apple_2" fitHeight="220.0" fitWidth="305.0" layoutY="-194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/bg_masukk_apple_2.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLanjut" layoutX="83.0" layoutY="558.0" mnemonicParsing="false" onAction="#keVerifApple" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: tr;" />
+   </children>
+</AnchorPane>

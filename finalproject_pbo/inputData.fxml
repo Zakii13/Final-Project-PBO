@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="268.0" style="-fx-background-color: #007AFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="finalproject_pbo.InputDataController">
+   <children>
+      <ImageView fx:id="info_pribadi_2" fitHeight="488.0" fitWidth="373.0" layoutX="-1.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/info_pribadi_2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="status_bar" fitHeight="55.0" fitWidth="268.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/status_bar.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnDone" layoutX="91.0" layoutY="417.0" mnemonicParsing="false" onAction="#keMelakukanPesanan" prefHeight="34.0" prefWidth="98.0" style="-fx-background-color: tr;" />
+      <ImageView fx:id="info_pribadii" fitHeight="63.0" fitWidth="222.0" layoutX="10.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/info_pribadii.PNG" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfNama" layoutX="22.0" layoutY="186.0" prefHeight="27.0" prefWidth="222.0" promptText="ex : Dicko" />
+      <TextField fx:id="tfNotelepon" layoutX="21.0" layoutY="242.0" prefHeight="27.0" prefWidth="222.0" promptText="ex: 08219892938" />
+      <TextField fx:id="tfAlamat" layoutX="21.0" layoutY="297.0" prefHeight="27.0" prefWidth="222.0" promptText="ex : Bekasi" />
+      <TextField fx:id="tfEmail" layoutX="20.0" layoutY="350.0" prefHeight="27.0" prefWidth="222.0" promptText="ex : dicko00@gmail.com" />
+   </children>
+</AnchorPane>

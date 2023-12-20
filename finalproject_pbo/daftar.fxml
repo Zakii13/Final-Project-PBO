@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="268.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="finalproject_pbo.DaftarController">
+   <children>
+      <ImageView fx:id="status_bar" fitHeight="55.0" fitWidth="268.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/status_bar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="input_daftar" fitHeight="219.0" fitWidth="253.0" layoutX="8.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/input_daftar.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="opsi_daftar" fitHeight="142.0" fitWidth="253.0" layoutX="14.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/opsi_daftar.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnGoogle" layoutX="94.0" layoutY="361.0" mnemonicParsing="false" onAction="#keDaftarGoogle" prefHeight="34.0" prefWidth="34.0" style="-fx-background-color: tr;" />
+      <Button fx:id="btnDaftar" layoutX="20.0" layoutY="414.0" mnemonicParsing="false" onAction="#keDaftar" prefHeight="34.0" prefWidth="227.0" style="-fx-background-color: tr;" />
+      <Button fx:id="btnMasuk" layoutX="172.0" layoutY="451.0" mnemonicParsing="false" onAction="#keMasuk" prefHeight="6.0" prefWidth="34.0" style="-fx-background-color: tr;" />
+      <Button fx:id="btnApple" layoutX="144.0" layoutY="361.0" mnemonicParsing="false" onAction="#keDaftarApple" prefHeight="34.0" prefWidth="34.0" style="-fx-background-color: tr;" />
+      <TextField fx:id="tfNama" layoutX="18.0" layoutY="210.0" prefHeight="30.0" prefWidth="234.0" promptText="Ex. Lalilsa Manobal" />
+      <TextField fx:id="tfEmail" layoutX="17.0" layoutY="278.0" prefHeight="30.0" prefWidth="234.0" promptText="example@gmail.com" />
+   </children>
+</AnchorPane>

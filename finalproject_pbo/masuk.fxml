@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="268.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject_pbo.MasukController">
+   <children>
+      <ImageView fx:id="status_bar" fitHeight="55.0" fitWidth="268.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/status_bar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg_masuk" fitHeight="136.0" fitWidth="122.0" layoutX="74.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/bg_masuk.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="klik_masuk" fitHeight="179.0" fitWidth="247.0" layoutX="11.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/klik_masuk.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="login_akun" fitHeight="253.0" fitWidth="256.0" layoutX="7.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/final_project_/login_akun.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLupaPw" layoutX="170.0" layoutY="424.0" mnemonicParsing="false" onAction="#keLupaPw" prefHeight="25.0" prefWidth="88.0" style="-fx-background-color: tr;" />
+      <Button fx:id="btnMasuk" layoutX="14.0" layoutY="524.0" mnemonicParsing="false" onAction="#keMenelusuriHotel" prefHeight="32.0" prefWidth="234.0" style="-fx-background-color: tr;" />
+      <Button fx:id="btnDaftar" layoutX="170.0" layoutY="558.0" mnemonicParsing="false" onAction="#keDaftar" prefHeight="25.0" prefWidth="42.0" style="-fx-background-color: tr;" />
+      <TextField fx:id="tfEmail" layoutX="16.0" layoutY="318.0" prefHeight="31.0" prefWidth="240.0" promptText="Ex. Lalisa Manobal" />
+      <PasswordField fx:id="tfKatasandi" layoutX="16.0" layoutY="391.0" prefHeight="31.0" prefWidth="240.0" promptText="**********" />
+   </children>
+</AnchorPane>
